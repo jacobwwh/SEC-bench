@@ -45,7 +45,7 @@ instance_ids = [
 
 # Output configuration
 [output]
-# Base output directory for evaluation results
+# Base output directory for evaluation results (USE ABSOLUTE PATH)
 # A timestamp-based subdirectory will be created under this directory for each run session
 # Example: if output_dir = "./results", results will be saved to "./results/20250101_120000/instance_id/"
 output_dir = "/path/to/output/directory"

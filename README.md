@@ -237,6 +237,12 @@ python -m secb.evaluator.eval_instances \
 
 [smolagents](https://github.com/SEC-bench/smolagents) is a lightweight agent framework from Hugging Face that supports diverse scaffolds, such as `CodeAgent` and `ToolCallingAgent`. We extended it for SEC-bench evaluation. Once installed, you can run evaluations with a configuration file.
 
+#### Installing smolagents
+
+```bash
+pip install git+https://github.com/SEC-bench/smolagents.git
+```
+
 #### Configuration
 
 Copy `config.example.toml` and customize it for your setup:
